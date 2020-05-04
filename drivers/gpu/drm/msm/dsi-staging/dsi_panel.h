@@ -1,6 +1,5 @@
 /*
  * Copyright (c) 2016-2018, The Linux Foundation. All rights reserved.
- * Copyright (C) 2019 XiaoMi, Inc.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -29,6 +28,7 @@
 #include "dsi_clk.h"
 #include "dsi_pwr.h"
 #include "msm_drv.h"
+#include "dsi_panel_mi.h"
 
 #define MAX_BL_LEVEL 4096
 #define MAX_BL_SCALE_LEVEL 1024
@@ -38,7 +38,6 @@
 #define DSI_MODE_MAX 5
 
 #define HIST_BL_OFFSET_LIMIT 48
-#define DEFAULT_FOD_OFF_DIMMING_DELAY  170
 
 enum dsi_panel_rotation {
 	DSI_PANEL_ROTATE_NONE = 0,

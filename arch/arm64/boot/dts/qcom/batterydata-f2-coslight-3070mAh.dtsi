@@ -1,3 +1,4 @@
+
 qcom,f2_coslight_3070mAh {
 	qcom, = <24>;
 	/* #3740321_Xiaomi_F2_Coslight_3070mAH_averaged_MasterSlave_Nov23rd2018*/

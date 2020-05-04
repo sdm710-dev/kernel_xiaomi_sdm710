@@ -1,3 +1,4 @@
+
 qcom,f2_scud_3070mAh {
 	qcom, = <24>;
 	/* #3732929_Xiaomi_F2_SCUD_3070mAH_FG_averaged_MasterSlave_Nov15th2018*/
